@@ -141,3 +141,5 @@ MAILERS = {
 LOGIN_REDIRECT_URL = 'myapp:index'
 
 LOGIN_URL='users:login'
+
+STATIC_ROOT = BASE_DIR / 'staticfiles'
