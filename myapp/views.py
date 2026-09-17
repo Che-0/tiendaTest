@@ -5,7 +5,7 @@ from .forms import ItemForm
 from django.contrib.auth.decorators import login_required
 
 
-@login_required
+
 # Create your views here.
 def index(request):
     items = Item.objects.all()
